@@ -1,0 +1,32 @@
+.app-header {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  background: #02be8a;
+  color: white;
+}
+
+body {
+  background: #e5e5e5;
+}
+
+.subscriptions {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  max-width: 960px;
+  align-content: center;
+  margin: 20px auto 0px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #02be8a;
+  color: white;
+  text-align: center;
+}
