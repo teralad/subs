@@ -45,7 +45,7 @@ class App extends Component {
         </div>
         <div className="subscriptions">
           {subscriptions.length > 0 &&
-            subscriptions.slice(0, 20).map((subscription) => <Subscription key={subscription.id} msg={subscription} />)}
+            subscriptions.map((subscription) => <Subscription key={subscription.id} msg={subscription} />)}
         </div>
       </div>
     );
