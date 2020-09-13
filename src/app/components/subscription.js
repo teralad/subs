@@ -26,7 +26,16 @@ let Subscription = (props) => {
         <div className="sub-body">{body}</div>
       </div>
       <div className="footer">
-        <Toast onClose={() => setShow(false)} show={show} delay={1000} autohide>
+        <Toast
+          style={{
+            height: "60px",
+            lineHeight: "60px",
+          }}
+          onClose={() => setShow(false)}
+          show={show}
+          delay={1000}
+          autohide
+        >
           <Toast.Body>Your changes have been saved!</Toast.Body>
         </Toast>
       </div>
